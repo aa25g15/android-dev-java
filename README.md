@@ -70,3 +70,5 @@ It is a concept where the same method can be defined multiple times with differe
 ## Classes and Objects
 <img width="1048" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/02946868-b6fe-4df5-b6a4-0f4072aba631">
 
+* Class is a blueprint for the object instance
+* Object is an instance of a class
