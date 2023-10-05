@@ -63,3 +63,6 @@ char myChar = 'A';
 char res = (char) (val + myChar); // 70
 System.out.print(res); // F
 ```
+
+## Method Overloading
+It is a concept where the same method can be defined multiple times with different signature and depending on the args, the correct implementation of the method will be invoked.
