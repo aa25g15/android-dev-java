@@ -37,3 +37,4 @@ System.out.print("Hello World!");
 ```java
 int age = 25; // Do not forget the semi-colon!
 ```
+<img width="591" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/5b2752c4-24dd-4ac1-aa6d-6725554b998c">
