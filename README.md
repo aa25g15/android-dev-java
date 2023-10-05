@@ -13,3 +13,4 @@ SDK is a collection of software and libs that devs use for Android development.
   * values
     * colors.xml - To store colors
     * strings.xml - To store strings which can be used throughout app, can be used for translation also, like it happens in i18n in React
+  * themes - Styles and themes much like stylesheets in web dev, themes can be applied to entire app, activity or View hierarchy, styles are only for a single View
