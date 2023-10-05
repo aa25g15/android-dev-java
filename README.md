@@ -27,3 +27,13 @@ public static void main(String[] args){
  // Do something
 }
 ```
+
+## Printing
+```java
+System.out.print("Hello World!");
+```
+
+## Vars
+```java
+int age = 25; // Do not forget the semi-colon!
+```
