@@ -38,3 +38,28 @@ System.out.print("Hello World!");
 int age = 25; // Do not forget the semi-colon!
 ```
 <img width="591" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/5b2752c4-24dd-4ac1-aa6d-6725554b998c">
+
+Just look at how to define variables online for these different data types.
+
+## Type Casting
+Process of converting one data type to another.
+* Implicit
+  * Happens automatically when conversion is safe and does not result in loss of data
+  * Happens when a variable of smaller data type is assigned to larger
+  * Eg - Converting int to double
+* Explicit
+  * Results in data loss so is done manually
+  * Eg - Converting double to int
+```java
+int age = 25;
+double age2 = age; // 25.0, implicit
+
+double pi = 3.14;
+int piInt = (int) pi; // 3
+
+int val = 5;
+char myChar = 'A';
+
+char res = (char) (val + myChar); // 70
+System.out.print(res); // F
+```
