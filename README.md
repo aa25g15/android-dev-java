@@ -5,6 +5,7 @@ SDK is a collection of software and libs that devs use for Android development.
 
 ## Project Structure
 * AndroidManifest.xml - Tells the Android build tools important info such as OS, Google Play
+* MainActivity.java - Entry point of Java logic
 * java folder - Contains java packages and source code of the app
 * res (resources) - Contains sub-folders:
   * drawable - Contains different types of images used in development, add all images here
