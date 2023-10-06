@@ -124,3 +124,13 @@ Polymorphism allows us to write consistent code.
 * Use implements keywords to implement a class with an interface
 * The class which implements the interface must follow the rules declared in the interface such as methods definitions etc.
 * One key advantage of using interfaces is that, in Java only mono-extend of classes is possible, you cannot extend multiple classes but you can implements multiple interfaces which can allow you to have multiple rule-sets when creating your class!
+
+## Views and ViewGroups
+* Views are like divs in web dev
+* ViewGroups contain multiple Views, Layout is also a ViewGroup
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/ba895c70-15ba-41b5-acc9-6f7836242662)
+
+## Android Studio
+* Code, split and design are 3 working modes in Android Studio
+* xml files are markup files which you can use to define the UI of the app
+
