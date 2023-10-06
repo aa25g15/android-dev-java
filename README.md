@@ -89,7 +89,8 @@ Can be accessed by classes within same package and also by sub-classes.
 Also called package private, means can only be accessed by classes in same package.
 
 ## super Keyword
-The super keyword is used to access the blueprint of the immediate parent class, its members, fields, methods and constructors.
+* The super keyword is used to access the blueprint of the immediate parent class, its members, fields, methods and constructors.
+* Use extend keyword to create a child class from a particular class.
 
 ## Annotations or Decorators
 In Java, annotations are used to provide metadata to the compiler, for example, @override is written on top of a method which in delcared in parent class but is overridden in the child class. But in this specific example, it is not mandatory to add override annotation. Also, you cannot override static and final methods and we should try to override abstract methods of the super class.
@@ -115,4 +116,11 @@ Polymorphism allows us to write consistent code.
 ## Abstraction
 * Used to hide details or complexity, like in an API.
 * To create an abstract class in Java, use abstract keyword before class and before methods
+* Abstract classes can have abstract and normal methods, both
 * You cannot create an instance of an abstract class, only of its children classes
+
+## Interfaces
+* Interfaces is also used to enforce the concept of abstraction.
+* Use implements keywords to implement a class with an interface
+* The class which implements the interface must follow the rules declared in the interface such as methods definitions etc.
+* One key advantage of using interfaces is that, in Java only mono-extend of classes is possible, you cannot extend multiple classes but you can implements multiple interfaces which can allow you to have multiple rule-sets when creating your class!
