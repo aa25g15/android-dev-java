@@ -72,3 +72,18 @@ It is a concept where the same method can be defined multiple times with differe
 
 * Class is a blueprint for the object instance
 * Object is an instance of a class
+
+## Access Modifiers
+* There are packages, which have one or more classes
+
+### Private
+Within class only.
+
+### Public
+Can be accessed by all classes within same package without importing but need to import in another package if you want to access.
+
+### Protected
+Can be accessed by classes within same package and also by sub-classes.
+
+### Default - When nothing is mentioned
+Also called package private, means can only be accessed by classes in same package.
