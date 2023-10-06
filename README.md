@@ -87,3 +87,6 @@ Can be accessed by classes within same package and also by sub-classes.
 
 ### Default - When nothing is mentioned
 Also called package private, means can only be accessed by classes in same package.
+
+## super Keyword
+The super keyword is used to access the blueprint of the immediate parent class, its members, fields, methods and constructors.
