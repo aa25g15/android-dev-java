@@ -90,3 +90,6 @@ Also called package private, means can only be accessed by classes in same packa
 
 ## super Keyword
 The super keyword is used to access the blueprint of the immediate parent class, its members, fields, methods and constructors.
+
+## Annotations or Decorators
+In Java, annotations are used to provide metadata to the compiler, for example, @override is written on top of a method which in delcared in parent class but is overridden in the child class.
