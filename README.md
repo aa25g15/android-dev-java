@@ -133,4 +133,4 @@ Polymorphism allows us to write consistent code.
 ## Android Studio
 * Code, split and design are 3 working modes in Android Studio
 * xml files are markup files which you can use to define the UI of the app
-
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/4a332ce2-47fc-42a7-864a-2f3224a1450a)
