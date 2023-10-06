@@ -111,3 +111,8 @@ v2.honk(); // Truck honks
 ```
 
 Polymorphism allows us to write consistent code.
+
+## Abstraction
+* Used to hide details or complexity, like in an API.
+* To create an abstract class in Java, use abstract keyword before class and before methods
+* You cannot create an instance of an abstract class, only of its children classes
