@@ -92,4 +92,22 @@ Also called package private, means can only be accessed by classes in same packa
 The super keyword is used to access the blueprint of the immediate parent class, its members, fields, methods and constructors.
 
 ## Annotations or Decorators
-In Java, annotations are used to provide metadata to the compiler, for example, @override is written on top of a method which in delcared in parent class but is overridden in the child class.
+In Java, annotations are used to provide metadata to the compiler, for example, @override is written on top of a method which in delcared in parent class but is overridden in the child class. But in this specific example, it is not mandatory to add override annotation. Also, you cannot override static and final methods and we should try to override abstract methods of the super class.
+
+## Polymorphism
+Objects of the different classes are treated as the objects of a common parent class.
+
+Example:
+* We create a class Vehicle, has method honk() which prints "Vehicle honks"
+* We create a class Car which extends Vehicle, overrides method honk() which prints "Car honks"
+* We create a class Truck which extends Vehicle, overrides method honk() which prints "Truck honks"
+
+```java
+Vehicle v1 = new Car("BMW");
+Vehicle v2 = new Truck("Mercedes");
+
+v1.honk(); // Car honks
+v2.honk(); // Truck honks
+```
+
+Polymorphism allows us to write consistent code.
