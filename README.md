@@ -135,3 +135,7 @@ Polymorphism allows us to write consistent code.
 * Code, split and design are 3 working modes in Android Studio
 * xml files are markup files which you can use to define the UI of the app
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/4a332ce2-47fc-42a7-864a-2f3224a1450a)
+
+## sp and dp
+* They both are units in Android Studio
+* Scalable pixels (sp) serve the same function as density-independent pixels (dp), but for fonts. The default value of an sp is the same as the default value for a dp. The primary difference between an sp and a dp is that sp's preserve a user's font settings.
