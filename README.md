@@ -156,3 +156,23 @@ Polymorphism allows us to write consistent code.
 TextView myTextView = findViewById(R.id.myTextView);
 // Now you can perform runtime manipulations on this View in your Java code
 ```
+
+# EditText
+* When user input is needed such as inputs, search bars etc.
+```xml
+<EditText
+ android:id="@+id/myTextView"
+ android:hint="Please enter name"
+ android:inputType="text"
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:layout_margin="20dp"
+ android:maxLength="120"
+
+/>
+```
+```java
+// MainActivity.java
+EditText myEditText = findViewById(R.id.myEditText);
+String inputText = myEditText.getText().toString();
+```
