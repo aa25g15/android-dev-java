@@ -2,6 +2,7 @@
 
 ## High Level Tips
 * Always initialize variables in onCreate, you can declare them as class fields though
+* You can use infer constraints button to directly add position constraints
 
 ## SDK
 SDK is a collection of software and libs that devs use for Android development.
