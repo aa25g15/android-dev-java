@@ -143,3 +143,16 @@ Polymorphism allows us to write consistent code.
 # TextView
 * Can be used to add texts and style them
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/87bbb17c-0dfa-4d98-af03-d1057acaa6de)
+
+# Initialising Views in Java Code
+* Define id
+ * Make sure its unqiue
+ * Make sure you define it correctly
+```xml
+<TextView android:id="@+id/myTextView">
+```
+* Now in MainActivity.java
+```java
+TextView myTextView = findViewById(R.id.myTextView);
+// Now you can perform runtime manipulations on this View in your Java code
+```
