@@ -149,7 +149,7 @@ Polymorphism allows us to write consistent code.
  * Make sure its unqiue
  * Make sure you define it correctly
 ```xml
-<TextView android:id="@+id/myTextView">
+<TextView android:id="@+id/myTextView" />
 ```
 * Now in MainActivity.java
 ```java
