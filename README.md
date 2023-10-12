@@ -140,11 +140,11 @@ Polymorphism allows us to write consistent code.
 * They both are units in Android Studio
 * Scalable pixels (sp) serve the same function as density-independent pixels (dp), but for fonts. The default value of an sp is the same as the default value for a dp. The primary difference between an sp and a dp is that sp's preserve a user's font settings.
 
-# TextView
+## TextView
 * Can be used to add texts and style them
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/87bbb17c-0dfa-4d98-af03-d1057acaa6de)
 
-# Initialising Views in Java Code
+## Initialising Views in Java Code
 * Define id
  * Make sure its unqiue
  * Make sure you define it correctly
@@ -157,7 +157,7 @@ TextView myTextView = findViewById(R.id.myTextView);
 // Now you can perform runtime manipulations on this View in your Java code
 ```
 
-# EditText
+## EditText
 * When user input is needed such as inputs, search bars etc.
 ```xml
 <EditText
@@ -168,7 +168,6 @@ TextView myTextView = findViewById(R.id.myTextView);
  android:layout_height="wrap_content"
  android:layout_margin="20dp"
  android:maxLength="120"
-
 />
 ```
 ```java
