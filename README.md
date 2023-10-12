@@ -181,3 +181,25 @@ TextView myTextView = findViewById(R.id.myTextView);
 EditText myEditText = findViewById(R.id.myEditText);
 String inputText = myEditText.getText().toString();
 ```
+
+## Buttons
+* Do not define onClick listener in xml itself, define in Java files
+* Do not forget to define id
+```xml
+<Button
+ android:id="@+id/myButton"
+ android:clickable="true" // or false
+ android:enabled="true" // or false
+/>
+```
+### Adding a Click Listener to a Button
+```java
+Button myButton = findViewById(R.id.myButton);
+myButton.setOnClickListener(new View.onClickListener() {
+ @Override
+ public void onClick(View v){
+  // This code will be executed when the button is clicked
+  Toast.makeText(MainActivity.this, "You clicked the button", Toast.LENGTH_SHORT).show();
+ }
+});
+```
