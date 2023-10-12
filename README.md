@@ -203,3 +203,22 @@ myButton.setOnClickListener(new View.onClickListener() {
  }
 });
 ```
+
+## ImageView
+* Do not have spaces, uppercase letters or numbers in image files
+* Make sure they are jpg or png
+* Place them in drawable folder
+```xml
+<ImageView
+ android:layout_width="100dp"
+ android:layout_height="100dp"
+ android:src="@drawable/testimage"
+ android:id="@+id/myImage"
+ android:scaleType="centerCrop"
+ android:contentDescription="this is the alt text of the image"
+/>
+```
+```java
+ImageView myImage = findViewById(R.id.myImage);
+myImage.setImageResource(R.drawable.testimage)
+```
