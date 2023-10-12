@@ -139,3 +139,7 @@ Polymorphism allows us to write consistent code.
 ## sp and dp
 * They both are units in Android Studio
 * Scalable pixels (sp) serve the same function as density-independent pixels (dp), but for fonts. The default value of an sp is the same as the default value for a dp. The primary difference between an sp and a dp is that sp's preserve a user's font settings.
+
+# TextView
+* Can be used to add texts and style them
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/87bbb17c-0dfa-4d98-af03-d1057acaa6de)
