@@ -1,7 +1,11 @@
 # android-dev-java
 
+## High Level Tips
+* Always initialize variables in onCreate, you can declare them as class fields though
+
 ## SDK
 SDK is a collection of software and libs that devs use for Android development.
+
 
 ## Project Structure
 * AndroidManifest.xml - Tells the Android build tools important info such as OS, Google Play
@@ -221,4 +225,9 @@ myButton.setOnClickListener(new View.onClickListener() {
 ```java
 ImageView myImage = findViewById(R.id.myImage);
 myImage.setImageResource(R.drawable.testimage)
+```
+### Using Image as Background
+* Define this attribute in a Layout
+```xml
+android:background="@drawable/background"
 ```
