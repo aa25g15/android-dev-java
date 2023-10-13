@@ -259,3 +259,20 @@ double kilos = Double.parseDouble(inputText);
 * The onCreate() callback method in your activity is called by the Android framework when your activity is launched, this is part of the app life-cycle
 <img width="1792" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/4e2cad79-8078-4674-965a-8f5616e8f0a3">
 
+## Different Types of Layout
+<img width="1792" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/f60015e8-02ec-43b8-83f4-fb7fa1dcf271">
+
+## Boilerplate Code
+<img width="1792" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/bee09091-fe3f-46f0-a59c-d12f042e061e">
+
+## Relative Layout
+* This way you can position elements relative to each other or the layout
+* Can get complicated for more complex layouts
+* For more complex layouts, constraint view is preferred
+```java
+<TextView
+ android:layout_below="@+id/text1"
+ android:id="@+id/text2"
+/>
+```
+
