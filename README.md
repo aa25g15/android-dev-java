@@ -276,3 +276,6 @@ double kilos = Double.parseDouble(inputText);
 />
 ```
 
+## Constraint Layout
+* Each element in constraint layout must define at least 2 anchor points to position correctly, a vertical and a horizontal
+* The position reference can be the layout itself or some other element or even some guide lines that you can create which are invisible datum lines
