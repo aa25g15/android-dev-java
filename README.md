@@ -237,3 +237,25 @@ android:background="@drawable/background"
 ```java
 double kilos = Double.parseDouble(inputText);
 ```
+
+## Layouts
+* Define the UI structure of your app, such as in an activity
+* Created using a heirarchy of Views and ViewGroups
+ * View
+  * A View usually draws something a user can interact with
+  * Views are also called widgets, example EditText, ImageView, Button etc.
+ * ViewGroups
+  * ViewGroups are invisible containers that define layout of child Views and ViewGroups
+  * ViewGroup objects are usually called layouts
+* Each layout file must contain exactly one root element which must be a valid View or ViewGroup object
+* Save xml file in res/layout/
+* layout_something - Way to define layout attributes
+ * layout_width or layout_height
+  * Either pixels or match_parent or wrap_content
+  * wrap_content tells the view to acquire width or height as per content
+<img width="864" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/6b1d5dfa-cd30-48c8-a325-1dc80827e661">
+
+## Loading the View
+* The onCreate() callback method in your activity is called by the Android framework when your activity is launched, this is part of the app life-cycle
+<img width="1792" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/4e2cad79-8078-4674-965a-8f5616e8f0a3">
+
