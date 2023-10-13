@@ -232,3 +232,8 @@ myImage.setImageResource(R.drawable.testimage)
 ```xml
 android:background="@drawable/background"
 ```
+
+## Converting String to double
+```java
+double kilos = Double.parseDouble(inputText);
+```
