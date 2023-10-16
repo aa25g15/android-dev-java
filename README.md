@@ -304,3 +304,34 @@ An activity is one screen of an app. In that way the activity is very similar to
 * onDestroy
   * Last chance to do cleanup, this is called when activity is destroyed
   * Quite interestingly, this is called when we change device orientation, a new activity then starts again
+
+## Intents
+* Action to be performed, either within the same app or different apps
+  * Implicit
+  * Explicit
+    * To start a specific component within your own app
+```java
+// Explicit intent example
+public void goToSecondActivity(){
+ Intent intent = new Intent(this, SecondActivity.class);
+ startActivity(intent); 
+}
+```
+```java
+// Implicit intent
+public void openWebPage(){
+ Uri webPage = Uri.parse("https://www.flipkart.com");
+ Intent intent = new Intent(Intent.ACTION_VIEW, webPage);
+ startActivity(intent);
+}
+```
+* When you use ACTION_VIEW with a uri, the system will try to find the appropriate component to handle that uri
+
+## Android Manifest
+* A file which tells Android OS and other apps about your app and how to interact with it
+* <intent-filter> will tell what implicit intents your activity can handle
+* You can even define permissions in Android Manifest file
+
+## Gradle
+<img width="1792" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/6d2770b3-83da-458d-b47e-07efad345f26">
+
