@@ -334,4 +334,18 @@ public void openWebPage(){
 
 ## Gradle
 <img width="1792" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/6d2770b3-83da-458d-b47e-07efad345f26">
+<img width="1792" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/892d5f61-f2b4-4c38-ad18-5e2c36a2fa19">
+* You will mostly work with module-level build.gradle file 
 
+## Using Explicit Intents to Send Data To Another Activity
+```java
+// MainActivity.java
+Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
+intent.putExtra("name", userName);
+startActivity(intent);
+```
+```java
+// SecondActivity.java
+Intent intent = getIntent();
+String userName = intent.getStringExtra("name");
+```
