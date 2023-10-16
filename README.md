@@ -349,3 +349,19 @@ startActivity(intent);
 Intent intent = getIntent();
 String userName = intent.getStringExtra("name");
 ```
+
+## Share Data Via Intent
+```java
+public void shareData(String userName, int randomNumber){
+ // Implicit intent
+ // ACTION_SEND is used to typically send data other applications or components 
+ Intent intent = new Intent(Intent.ACTION_SEND);
+ intent.setType("text/plain");
+
+ intent.putExtra(Intent.EXTRA_SUBJECT, userName + " just got lucky!");
+ intent.putExtra(Intent.EXTRA_TEXT, "His lucky number is " + randomNumber);
+
+ // Allows you to choose from a range of applications that can handle that intent
+ startActivity.createChooser(intent, "Choose a Platform"); 
+}
+```
