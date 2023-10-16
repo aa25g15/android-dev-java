@@ -284,23 +284,23 @@ An activity is one screen of an app. In that way the activity is very similar to
 
 ## App Life Cycle
 * onCreate
- * Called when activity is created
- * Good place to initialize widgets, elements or variables
+  * Called when activity is created
+  * Good place to initialize widgets, elements or variables
 * onStart
- * Called when activity is visible to the user but not interactive
- * Good place to initialize animations or other UI related tasks
+  * Called when activity is visible to the user but not interactive
+  * Good place to initialize animations or other UI related tasks
 * onResume
- * Activity in foreground and is ready for user interaction
- * Its where you should start components which should be actively running such as sensors or location updates
+  * Activity in foreground and is ready for user interaction
+  * Its where you should start components which should be actively running such as sensors or location updates
 * onPause
- * When the activity is about to lose focus cause another activity is starting or device is going into multi-window mode
- * You should do cleanup, pause ongoing operations and release resources
+  * When the activity is about to lose focus cause another activity is starting or device is going into multi-window mode
+  * You should do cleanup, pause ongoing operations and release resources
 * onStop
- * When activity is no longer visible to user
- * Again, we can free up resources
+  * When activity is no longer visible to user
+  * Again, we can free up resources
 * onRestart
- * When activity restarts after stopping
- * Is followed by the onStart method
+  * When activity restarts after stopping
+  * Is followed by the onStart method
 * onDestroy
- * Last chance to do cleanup, this is called when activity is destroyed
- * Quite interestingly, this is called when we change device orientation, a new activity then starts again
+  * Last chance to do cleanup, this is called when activity is destroyed
+  * Quite interestingly, this is called when we change device orientation, a new activity then starts again
