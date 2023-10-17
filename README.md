@@ -457,3 +457,10 @@ spinner.setAdapter(adapter);
 MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.some_file); // This is more common approach
 mediaPlayer.start();
 ```
+
+## Multiple Buttons in Activity With OnClick
+* Instead of adding multiple new View.onClickListener, you can implement the View.onClickListener on the activity class and override the onClick method in the class itself, then you can just use:
+```
+Button myButton = getViewById(R.id.myButton);
+myButton.setOnClickListener(this);
+```
