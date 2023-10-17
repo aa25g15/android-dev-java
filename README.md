@@ -380,3 +380,10 @@ public void shareData(String userName, int randomNumber){
  android:text="@atring/blue_sky"
 />
 ```
+
+## theme
+* You can use theme to define light and dark themes
+* Example, in themes.xml
+```xml
+<item name="colorPrimary">@color/blue_sky</item>
+```
