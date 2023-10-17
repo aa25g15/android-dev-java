@@ -446,3 +446,14 @@ spinner.setAdapter(adapter);
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/9183c2e4-2646-475a-8952-5e286d8fbdb8)
 * Use progressBar.setProgress() to set the progress value, can be 0 - 100
 
+## Raw Folder
+* Right click res -> new android resource directory -> raw
+* A folder where raw resources are placed
+* Raw resources are not processed by the system and are accessed/stored as is, example audio, video, json etc.
+
+## MediaPlayer
+```java
+// MediaPlayer mediaPlayer = new MediaPlayer();
+MediaPlayer mediaPlayer = MediaPlayer.create(getApplicationContext(), R.raw.some_file); // This is more common approach
+mediaPlayer.start();
+```
