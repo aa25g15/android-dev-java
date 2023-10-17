@@ -4,6 +4,7 @@
 * Always initialize variables in onCreate, you can declare them as class fields though
 * You can use infer constraints button to directly add position constraints
 * You can create drawable shapes using xml inside the drawables folder
+* If you have unexpected errors in Android Studio, go to build -> rebuild project
 
 ## SDK
 SDK is a collection of software and libs that devs use for Android development.
@@ -433,6 +434,10 @@ ArrayAdapter<String> adapter = new ArrayAdapter<>(this, Android.R.layout.simple_
 spinner.setAdapter(adapter);
 ```
 
+## Time Picker
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/e0e4ea93-04b8-4bcf-be3a-3583ee508dc1)
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/b914b39b-b2e4-4708-993b-c8c285fb4ad5)
 
-
-
+## Date Picker
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/f9df472e-badb-43fb-9c05-49cf3dd67a4c)
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/b01d787c-ea7b-469d-b66f-f4d235aa713d)
