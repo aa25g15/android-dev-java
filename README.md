@@ -399,5 +399,9 @@ public void shareData(String userName, int randomNumber){
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/8323f13a-886b-40e5-af5f-4964ca68e478)
 
 ## Fonts
-
-
+* Right click res -> new android resource directory -> select font
+* Copy .ttf or .otf file to font folder
+* Now use
+```xml
+<TextView android:fontFamily="@font/my_custom_font" />
+```
