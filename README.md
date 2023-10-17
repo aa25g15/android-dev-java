@@ -4,7 +4,7 @@
 * Always initialize variables in onCreate, you can declare them as class fields though
 * You can use infer constraints button to directly add position constraints
 * You can create drawable shapes using xml inside the drawables folder
-* If you have unexpected errors in Android Studio, go to build -> rebuild project
+* If you have unexpected errors in Android Studio, go to build -> clean project
 
 ## SDK
 SDK is a collection of software and libs that devs use for Android development.
@@ -441,3 +441,8 @@ spinner.setAdapter(adapter);
 ## Date Picker
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/f9df472e-badb-43fb-9c05-49cf3dd67a4c)
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/b01d787c-ea7b-469d-b66f-f4d235aa713d)
+
+## Progress Bar
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/9183c2e4-2646-475a-8952-5e286d8fbdb8)
+* Use progressBar.setProgress() to set the progress value, can be 0 - 100
+
