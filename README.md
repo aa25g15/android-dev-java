@@ -3,6 +3,7 @@
 ## High Level Tips
 * Always initialize variables in onCreate, you can declare them as class fields though
 * You can use infer constraints button to directly add position constraints
+* You can create drawable shapes using xml inside the drawables folder
 
 ## SDK
 SDK is a collection of software and libs that devs use for Android development.
@@ -364,4 +365,18 @@ public void shareData(String userName, int randomNumber){
  // Allows you to choose from a range of applications that can handle that intent
  startActivity.createChooser(intent, "Choose a Platform"); 
 }
+```
+
+## Using Colors from colors.xml in res/values
+```xml
+<TextView
+ android:textColor="@colors/blue_sky"
+/>
+```
+
+## Using strings from strings.xml in res/values
+```
+<TextView
+ android:text="@atring/blue_sky"
+/>
 ```
