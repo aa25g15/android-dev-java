@@ -387,3 +387,17 @@ public void shareData(String userName, int randomNumber){
 ```xml
 <item name="colorPrimary">@color/blue_sky</item>
 ```
+
+## Menu
+* Provides a convenient way to access app features
+* Right click res -> new -> Android Resource Directory -> resource type select menu
+* Right click menu -> new menu resource file
+* You need to inflate the menu in your activity to perform actions, inflating is like creating the DOM of html, but here we are turning the XML into an object instance
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/ec7c13be-ee79-4d28-bd76-158eba4400d5)
+* After inflating, you might not see the menu until you change this in themes.xml -> remove the NoActionBar from the parent attribute of the style tag
+* To perform actions, you need this:
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/8323f13a-886b-40e5-af5f-4964ca68e478)
+
+## Fonts
+
+
