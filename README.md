@@ -405,3 +405,34 @@ public void shareData(String userName, int randomNumber){
 ```xml
 <TextView android:fontFamily="@font/my_custom_font" />
 ```
+
+## Checkbox
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/8ae00b4b-cc78-4da4-8349-2731014fa15c)
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/96e3255f-3a90-4cee-b044-9df6a87ef9fd)
+
+## Radio Buttons
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/24166ce3-833e-4c28-b4a3-643acdc48ad5)
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/c7dc84c9-16bb-4fc1-8261-0b828c20781c)
+
+## Spinner
+* Quite weirdly, the spinner is actually a dropdown or select in Android, it is not a loader per say
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/9da23523-43bd-4ef9-8c4b-9323699f3145)
+```java
+// MainActivity.java
+
+// View
+Spinner spinner = findViewById(R.id.spinner);
+
+// Data source
+String[] courses = {"Java", "Kotlin", "C++", "JS"};
+
+// ArrayAdapter: Used to populate spinner with items from string array data source
+ArrayAdapter<String> adapter = new ArrayAdapter<>(this, Android.R.layout.simple_spinner_item, courses);
+
+// Apply adapter to spinner
+spinner.setAdapter(adapter);
+```
+
+
+
+
