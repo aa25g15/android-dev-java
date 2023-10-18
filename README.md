@@ -464,3 +464,12 @@ mediaPlayer.start();
 Button myButton = getViewById(R.id.myButton);
 myButton.setOnClickListener(this);
 ```
+
+## Adapters
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/db59ddee-88c3-46f3-b49b-bb2f17af780e)
+
+## ListViews with Adapters
+* Used to display list of components, the data is provided by an adapter
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/7eb71d4a-74de-44d4-aa5f-917ffdd6662b)
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/df060196-ecd5-4b03-a15b-8c4b626c8412)
+
