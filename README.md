@@ -473,3 +473,7 @@ myButton.setOnClickListener(this);
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/7eb71d4a-74de-44d4-aa5f-917ffdd6662b)
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/df060196-ecd5-4b03-a15b-8c4b626c8412)
 
+## Custom Adapter
+* Can be built by extending BaseAdapter for which you need to define certain methods as follows
+* You need to create a new layout file as well for your list item template
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/5c4b4d97-6417-4aa0-bebd-72550876b16a)
