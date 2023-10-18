@@ -579,3 +579,9 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/199d321c-b46f-4646-9364-2ccdd2523519)
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/867da226-625f-4bab-aafa-088766142282)
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/c22f9077-1b66-4946-ac17-54e20b39922b)
+
+## Android Components
+* Building blocks of Android app
+* 4 types
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/8fb206d9-21d9-44d1-aa4f-ee8f46651d09)
+
