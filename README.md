@@ -546,4 +546,5 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 
 ## Grid Layout
 * Create layout xml also, right click res -> new resource file
+* Use numColumns or setNumColumns to set number of columns in GridView
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/83e73e4e-5da0-438e-aad0-fc247d9b1aec)
