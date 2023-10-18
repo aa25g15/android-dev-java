@@ -548,3 +548,10 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 * Create layout xml also, right click res -> new resource file
 * Use numColumns or setNumColumns to set number of columns in GridView
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/83e73e4e-5da0-438e-aad0-fc247d9b1aec)
+
+## Recycler Views
+* Good for displaying large amounts of data
+* Reduces power consumption, makes app performant
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/4790678f-877e-4069-9cf6-2e405b81ba9a)
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/0d249ad1-2ab1-422a-a2c3-5677a06c00a5)
+
