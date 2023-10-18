@@ -499,3 +499,47 @@ static ViewHolder {
 
 ## Click Events on List View
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/f0e1ea9e-83ad-4d8f-8fb1-be7bb39414e9)
+
+## getView When Using ArrayList in Custom Adapter
+* This is a bit tricky, so writing this for understanding
+```java
+@NonNull
+@Override
+public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent){
+ // Get the planet object for the current position
+ Planet planet = getItem(position);
+
+ // Inflate layout
+ MyViewHolder myViewHolder;
+ final View result;
+
+ if(convertView == null){
+  myViewHolder = new MyViewHolder();
+  LayoutInflater layoutInflater = LayoutInflater.from(getContext());
+  convertView = layoutInflater.inflate(
+   R.layout.item_list_layout, // custom layout xml
+   parent,
+   false
+  );
+
+  // Finding Views
+  myViewHolder.planetName = (TextView) convertView.findViewById(R.id.planet_name);
+  myViewHolder.moonCount = (TextView) convertView.findViewById(R.id.moon_count);
+  myViewHolder.planetImg = (TextView) convertView.findViewById(R.id.imageView);
+
+  result = convertView;
+  convertView.setTag(myViewHolder); // setTag can be used to attach an object to convertView to be retrieved later
+ } else {
+  // The view is recycled
+  myViewHolder = (MyViewHolder) comvertView.getTag(); // Gets the attached object using setTag
+  result = convertView;
+ }
+
+ // Getting data from modal class
+ myViewHolder.planetName.setText(planets.getPlanetName());
+ myViewHolder.moonCount.setText(planets.getMoonCount());
+ myViewHolder.planetImg.setImageResource(planets.getPlanetImage());
+
+ return result;
+}
+```
