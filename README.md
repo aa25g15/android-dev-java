@@ -496,3 +496,6 @@ static ViewHolder {
 ## Model Class
 * A Model Class will define the data structure and behaviour of each item in a list view
 * Define constructor, getters, setters
+
+## Click Events on List View
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/f0e1ea9e-83ad-4d8f-8fb1-be7bb39414e9)
