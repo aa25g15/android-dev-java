@@ -482,7 +482,7 @@ myButton.setOnClickListener(this);
 
 ### View Holder Class
 * You need to use the ViewHolder pattern to recylce and re-use already inflated views to improve list performance
-* Basically caches the references to the views of list items so they dont have to be looked up repeatedly using findViewById
+* Basically caches the references to the views of list items so they dont have to be looked up repeatedly using findViewById during scrolling
 ```java
 // Create static class inside CustomAdapter class
 static ViewHolder {
