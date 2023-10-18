@@ -5,6 +5,8 @@
 * You can use infer constraints button to directly add position constraints
 * You can create drawable shapes using xml inside the drawables folder
 * If you have unexpected errors in Android Studio, go to build -> clean project
+* Whenever you want to access image or store the asset reference to it, just store its int id
+* Context actually provides access to various application specific resources, system level services and info about app's environment
 
 ## SDK
 SDK is a collection of software and libs that devs use for Android development.
@@ -490,3 +492,6 @@ static ViewHolder {
 * Then, the getView method in the CustomAdpater can be written as follows
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/4aeeefe7-6993-4f15-9a4e-caa8e11afa55)
 
+## Model Class
+* A Model Class will define the data structure and behaviour of each item in a list view
+* Define constructor, getters, setters
