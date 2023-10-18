@@ -477,3 +477,16 @@ myButton.setOnClickListener(this);
 * Can be built by extending BaseAdapter for which you need to define certain methods as follows
 * You need to create a new layout file as well for your list item template
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/5c4b4d97-6417-4aa0-bebd-72550876b16a)
+
+### View Holder Class
+* You need to use the ViewHolder pattern to recylce and re-use already inflated views to improve list performance
+```java
+// Create static class inside CustomAdapter class
+static ViewHolder {
+ // Hold references to the views within an item layout
+ TextView textView;
+}
+```
+* Then, the getView method in the CustomAdpater can be written as follows
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/4aeeefe7-6993-4f15-9a4e-caa8e11afa55)
+
