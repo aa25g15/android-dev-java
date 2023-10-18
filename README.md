@@ -573,3 +573,10 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 ## Adding Click Event Listener to Recycler View Item
 * You need to implement View.onClickListener in appropriate classes
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/3f67f4da-07cd-4ab1-a9dc-b8e885c3e483)
+
+## CardView
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/0d079469-d2f9-4354-8a4a-5265e4d0e478)
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/199d321c-b46f-4646-9364-2ccdd2523519)
+
+
+
