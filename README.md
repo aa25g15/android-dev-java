@@ -476,6 +476,11 @@ myButton.setOnClickListener(this);
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/df060196-ecd5-4b03-a15b-8c4b626c8412)
 
 ## Custom Adapter
+* You need
+  * Item Layout xml file
+  * Model Class
+  * Custom Adapter Class with ViewHolder static class
+  * Data Source
 * Can be built by extending BaseAdapter for which you need to define certain methods as follows
 * You need to create a new layout file as well for your list item template
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/5c4b4d97-6417-4aa0-bebd-72550876b16a)
@@ -554,4 +559,17 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 * Reduces power consumption, makes app performant
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/4790678f-877e-4069-9cf6-2e405b81ba9a)
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/0d249ad1-2ab1-422a-a2c3-5677a06c00a5)
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/053db075-3c04-40e0-b8ab-eedbaf49d627)
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/a3cd699b-9782-4d9c-bbd4-db08383079b0)
+* When creating the Custom Adapter for recycler view, there are methods which you need to implement, check this online
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/e05e8e31-00d4-4568-bc88-f21a57be63df)
+* Other than this, you can declare the ViewHolder class like this
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/c5f60b8d-2db8-4070-8161-30ecd73d83ce)
 
+## LinearLayoutManager
+* RecyclerView will not show on UI without the LinearLayoutManager
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/825f662a-4ef4-4977-8c2d-764645be31b1)
+
+## Adding Click Event Listener to Recycler View Item
+* You need to implement View.onClickListener in appropriate classes
+![image](https://github.com/aa25g15/android-dev-java/assets/26576978/3f67f4da-07cd-4ab1-a9dc-b8e885c3e483)
