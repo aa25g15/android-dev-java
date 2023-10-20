@@ -585,3 +585,28 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 * 4 types
 ![image](https://github.com/aa25g15/android-dev-java/assets/26576978/8fb206d9-21d9-44d1-aa4f-ee8f46651d09)
 
+## Services
+* Foreground services include things like media playback, they show a permanent notification indicating the user that the service is running
+* Background services include things like data sync, a persistent notification is not shown and the user is unaware of them running
+* Bound services are tightly bound to components, they are destroyed when all components have unbounded
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/01cd4262-95ac-44f2-9116-fc834d4f9493">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/ab18207c-e341-4593-8363-6f1a3724b1aa">
+* Carefully handle service lifecycle else you can create instability, weird behaviour and resource leaks
+* onCreate
+  * For 1 time initialization tasks
+* onStartCommand
+  * Called when service is started using startService method, provides intent to startService method and other params.
+  * You perform background tasks in this method.
+  * You can return values like start sticky or start non-sticky to tell how the system should handle the service if it is killed due to resource constraints.
+* onDestroy
+  * When service is about to be destroyed, perform cleanup
+* bindService
+  * Bind the service to a component
+* onBind
+  * When a component binds to the service
+* onUnbind
+  * When all components have unbound. You can return true if you want the service to keep running even after all have unbounded.
+  * Default is to return false.
+* onRebind
+  * A component which was bound earlier, binds again
+
