@@ -610,3 +610,36 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 * onRebind
   * A component which was bound earlier, binds again
 
+### Creating a Service
+* Create in the same folder as the Mainactivity.java
+* START_STICKY will tell the system to restart the service if killed but you need to handle reinitialization
+* START_NOT_STICKY will tell system to not start if killed
+* IBinder interface is used to establish a communication channel between the bound component and the bound service, returning null simply indicates that the service you created does not bind to anything
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/0ffb471d-d106-4929-95b6-30bde18d2773">
+
+### Starting Service
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/be687a11-99e3-44cc-9798-1bfc04215c29">
+
+### Stopping Service
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/9e4295e1-8a6f-412e-aa19-8e1ce9063869">
+
+### Declaring in Manifest
+* A service will not be able to perform tasks unless you declare it inside Application tag in manifest
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/97bdebb7-4856-4034-ab94-d191b6ae281c">
+
+## Broadcast Receiver
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/8edd6dbb-b609-46cd-87b3-b307554d2f92">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/b0d5bb29-22f2-49d5-aa1b-a9315c6bac82">
+
+### Static Way to Register
+* Will only work with API level 25 or lower
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/2c0f0e71-68a4-4201-a444-ba2c49f3b10a">
+
+### Dyanmic Way to Register
+* WIll work with API level 26 or higher
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/ff2c2b8c-d329-40fb-a1cf-f9758ce75b6f">
+
+## Fragments
+* Basically components like in React Native
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/1fcea16c-5a02-4c6a-bd0c-e3792ac44c80">
+
