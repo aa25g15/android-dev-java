@@ -648,3 +648,10 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 * onStart is when it is ready to interact with user
 * onAttach is when fragment is attached to an activity
 * onActivityCreated is when fragment is fully initialized, good to add tasks which need fragment to be fully initialized
+
+### Creating Fragment
+* Use FrameLayout
+* Fragment has one XML and one Java file
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/98c4ded4-dd75-4897-a0da-d65bec7acdc8">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/c3e2df71-a395-4b24-be5f-1512281c09b6">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/bbe6c4d2-de4c-4259-a6b9-ae2f58808463">
