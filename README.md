@@ -642,4 +642,9 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 ## Fragments
 * Basically components like in React Native
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/1fcea16c-5a02-4c6a-bd0c-e3792ac44c80">
-
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/809f7482-a436-4a85-885e-a54aebc76e19">
+* onCreate is when the fragment is created, use this for initialization
+* onCreateView is when UI is created or inflated, can also be used to programatically create UI elements
+* onStart is when it is ready to interact with user
+* onAttach is when fragment is attached to an activity
+* onActivityCreated is when fragment is fully initialized, good to add tasks which need fragment to be fully initialized
