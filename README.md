@@ -657,3 +657,11 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/bbe6c4d2-de4c-4259-a6b9-ae2f58808463">
 
 ### Using Fragment
+* Create a FrameLayout in Activity XML to be replaced by fragment in Java code via something called Fragment transaction
+* Declare loadFragment function in MainActivity.java and use it like this to load fragments:
+```java
+loadFragment(new FirstFragment());
+```
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/c9ccec82-d24b-4f00-aadd-cc759a8148d0">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/f0254052-141e-4877-b80e-d6116e46f3f9">
+
