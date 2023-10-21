@@ -665,3 +665,6 @@ loadFragment(new FirstFragment());
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/c9ccec82-d24b-4f00-aadd-cc759a8148d0">
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/f0254052-141e-4877-b80e-d6116e46f3f9">
 
+## ViewPager
+* Can create swipable UI with fragments
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/3102eb9d-0bd0-44bf-adaf-e853825097de">
