@@ -701,7 +701,7 @@ loadFragment(new FirstFragment());
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/7164b6de-6309-4de3-8b8b-c5c3261bffc0">
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/2c9c0cce-64d0-4f13-b8c9-deef37c7539b">
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/f962480b-e503-440b-a931-958e8f27b2d5">
-* Data binding library already comes with Gradle, but you need to enable it in the app level build.gradle
+* Data binding library already comes with Gradle, but you need to enable it in the app level build.gradle, dont forget to sync the project after adding this
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/bb593c25-1026-426f-85d3-c1ee82ea7a98">
 
 ### Implementing Data Binding
@@ -712,7 +712,7 @@ loadFragment(new FirstFragment());
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/b5832246-1b46-4565-aac2-e97296ee35e1">
 * If you get duplicate class Kotlin errors, try this
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/2755cfc5-fca4-4893-b096-66557c690a56">
+* Adding an event listener on onClick is no different, just do all steps for what we did for binding the name above, create <variable>, define class, create instance of class inside activity, bind to data binding class, the only thing different is:
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/7fac8325-1eb9-4c54-b2b9-88c4dd4a3c90">
 
-
-
-
+### 2 Way Binding
