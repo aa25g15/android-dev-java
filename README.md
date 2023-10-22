@@ -738,4 +738,9 @@ loadFragment(new FirstFragment());
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/8adcb9f1-b285-4edb-ad7a-d8ac74a2901e">
 
 ## Live Data
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/57eafc0c-f0dd-4039-ab2d-b98e14f4a443">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/fc3d3c03-366f-4b15-bdfd-a24acf20e330">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/59088221-2a7e-4abc-8312-0bf2e2d3e351">
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/aab6cca8-98fd-4b53-9132-15f14db7f388">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/4039dfec-3f2d-4e1e-95e3-24fadf7925eb">
+
