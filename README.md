@@ -701,3 +701,18 @@ loadFragment(new FirstFragment());
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/7164b6de-6309-4de3-8b8b-c5c3261bffc0">
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/2c9c0cce-64d0-4f13-b8c9-deef37c7539b">
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/f962480b-e503-440b-a931-958e8f27b2d5">
+* Data binding library already comes with Gradle, but you need to enable it in the app level build.gradle
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/bb593c25-1026-426f-85d3-c1ee82ea7a98">
+
+### Implementing Data Binding
+* Wrap XML Layout Container such as ConstraintLayout with <Layout></Layout> tag
+* Now you need to add <data> tag above all children, this tag will have <variable> tags
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/55818b84-b137-42fc-9d76-e4fa814a7a4c">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/fba9fd0c-b5c3-47aa-869c-c0ec942ef79d">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/b5832246-1b46-4565-aac2-e97296ee35e1">
+* If you get duplicate class Kotlin errors, try this
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/2755cfc5-fca4-4893-b096-66557c690a56">
+
+
+
+
