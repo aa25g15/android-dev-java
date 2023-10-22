@@ -723,3 +723,18 @@ loadFragment(new FirstFragment());
 * Data source class needs to extend BaseObservable and you need to use the @Bindable decorator in the getter method of the two way binded property in the data source class
 * You need to also use notifyPropertyChanged in the setter
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/77456afc-affc-46c2-b37a-b96d270e0ecd">
+
+## ViewModel
+* Helps persist UI state during configuration changes such as screen rotation
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/ce5122cf-0c91-4cbb-8025-fb010ac6bf51">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/a482d9f6-a48e-4a58-a0ba-e7c9988b8f39">
+
+### Adding ViewModel
+* Make these changes first, these are also in Android docs in LifeCycle
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/e2d5ba2d-ae0a-4af4-b8e2-3e8ce57a37d0">
+* This is how you create your custom ViewModel class
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/df983cae-ee1d-4b35-99da-86779bb419b5">
+* Initializing ViewModel, note that this refers to the class or context that owns the ViewModel (usually Fragment or Activity) and get method returns a new instance or already created instance of the ViewModel class
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/8adcb9f1-b285-4edb-ad7a-d8ac74a2901e">
+
+
