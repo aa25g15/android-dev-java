@@ -737,4 +737,5 @@ loadFragment(new FirstFragment());
 * Initializing ViewModel, note that this refers to the class or context that owns the ViewModel (usually Fragment or Activity) and get method returns a new instance or already created instance of the ViewModel class
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/8adcb9f1-b285-4edb-ad7a-d8ac74a2901e">
 
-
+## Live Data
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/aab6cca8-98fd-4b53-9132-15f14db7f388">
