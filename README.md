@@ -657,6 +657,9 @@ public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/c3e2df71-a395-4b24-be5f-1512281c09b6">
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/bbe6c4d2-de4c-4259-a6b9-ae2f58808463">
 
+### FragmentManager
+FragmentManager is the class responsible for performing actions on your app's fragments, such as adding, removing, or replacing them and adding them to the back stack.
+
 ### Using Fragment
 * Create a FrameLayout in Activity XML to be replaced by fragment in Java code via something called Fragment transaction
 * Declare loadFragment function in MainActivity.java and use it like this to load fragments:
@@ -669,3 +672,10 @@ loadFragment(new FirstFragment());
 ## ViewPager
 * Can create swipable UI with fragments
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/3102eb9d-0bd0-44bf-adaf-e853825097de">
+* Use ViewPager2
+* For that you also need to add dependency in build.gradle
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/40671554-10dd-4407-86c0-4006eec25a59">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/57dd4e92-35b0-4604-bd2e-16310dea47cc">
+* You need to create an adapter for your ViewPager
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/ad1613ae-1a52-44da-85dc-c074687f9383">
+* Basically in the adapter class, we are managing an ArrayList of all fragment instances pushed to the array by a method
