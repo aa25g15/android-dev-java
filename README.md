@@ -691,3 +691,13 @@ loadFragment(new FirstFragment());
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/387b73f5-bac1-45bf-945b-fcb4a737b3a6">
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/09f574d3-7fcd-4987-a132-62df6846a9b6">
 
+## Android Jetpack
+* Jetpack is a suite of libraries to help developers follow best practices, reduce boilerplate code, and write code that works consistently across Android versions and devices so that developers can focus on the code they care about.
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/17fc87cc-c4bb-4e8b-ae7f-3adbdacd6586">
+
+## Data Binding
+* Using findViewById cannot be used repeatedly for large apps cause the Android system will have to go through the entire tree to find the View
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/f1e12e64-1bb9-45ee-8819-b26b1cd12967">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/7164b6de-6309-4de3-8b8b-c5c3261bffc0">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/2c9c0cce-64d0-4f13-b8c9-deef37c7539b">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/f962480b-e503-440b-a931-958e8f27b2d5">
