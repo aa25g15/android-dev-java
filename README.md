@@ -744,3 +744,10 @@ loadFragment(new FirstFragment());
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/aab6cca8-98fd-4b53-9132-15f14db7f388">
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/4039dfec-3f2d-4e1e-95e3-24fadf7925eb">
 
+# MVVM
+* Model, View, ViewModel
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/dbb9b5c0-84d4-4aea-8f5a-d6928b7555a9">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/3f70d2b4-b31e-4da3-86b5-4636d962cafb">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/0afcf628-1a4c-4aee-ab60-bd1bb5590e46">
+
+
