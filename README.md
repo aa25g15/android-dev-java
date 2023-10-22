@@ -1,4 +1,4 @@
-# android-dev-java
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/64dd051b-3310-45fe-8a6d-c24df0b3bbf4"># android-dev-java
 
 ## High Level Tips
 * Always initialize variables in onCreate, you can declare them as class fields though
@@ -689,5 +689,5 @@ loadFragment(new FirstFragment());
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/a7c46d10-6f40-4d52-b4e1-3492c34c2806">
 * Use TabLayoutMediator for hooking up, note that we can even pass a lambda function in the third param
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/387b73f5-bac1-45bf-945b-fcb4a737b3a6">
-
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/09f574d3-7fcd-4987-a132-62df6846a9b6">
 
