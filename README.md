@@ -679,3 +679,15 @@ loadFragment(new FirstFragment());
 * You need to create an adapter for your ViewPager
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/ad1613ae-1a52-44da-85dc-c074687f9383">
 * Basically in the adapter class, we are managing an ArrayList of all fragment instances pushed to the array by a method
+
+### Using ViewPager
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/5415beaa-dcb3-4d93-b70f-9a01e5529e48">
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/cf1a4065-955c-42fe-91dd-131d0a20beba">
+
+### Hooking up TabLayout to ViewPager
+* Create TabLayout
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/a7c46d10-6f40-4d52-b4e1-3492c34c2806">
+* Use TabLayoutMediator for hooking up, note that we can even pass a lambda function in the third param
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/387b73f5-bac1-45bf-945b-fcb4a737b3a6">
+
+
