@@ -705,7 +705,7 @@ loadFragment(new FirstFragment());
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/bb593c25-1026-426f-85d3-c1ee82ea7a98">
 
 ### Implementing Data Binding
-* Wrap XML Layout Container such as ConstraintLayout with <Layout></Layout> tag
+* Wrap XML Layout Container such as ConstraintLayout with <Layout></Layout> tag, dont forget to add namespaces
 * Now you need to add <data> tag above all children, this tag will have <variable> tags
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/55818b84-b137-42fc-9d76-e4fa814a7a4c">
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/fba9fd0c-b5c3-47aa-869c-c0ec942ef79d">
@@ -716,3 +716,10 @@ loadFragment(new FirstFragment());
 <img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/7fac8325-1eb9-4c54-b2b9-88c4dd4a3c90">
 
 ### 2 Way Binding
+* You need to do this to make sure the 2 way binding works, notice the use of =
+```xml
+<EditText android:text="@={myDataSourceClass.field}" />
+```
+* Data source class needs to extend BaseObservable and you need to use the @Bindable decorator in the getter method of the two way binded property in the data source class
+* You need to also use notifyPropertyChanged in the setter
+<img width="1440" alt="image" src="https://github.com/aa25g15/android-dev-java/assets/26576978/77456afc-affc-46c2-b37a-b96d270e0ecd">
