@@ -8,6 +8,8 @@
 * Whenever you want to access image or store the asset reference to it, just store its int id
 * Context actually provides access to various application specific resources, system level services and info about app's environment
 * Not sure but we are using 0dp layout_height and layout_width in order to fill space sometimes
+* 0dp means match constraints
+* You might have to downgrade your version of jetpack navigation library according to your JDK version
 
 ## SDK
 SDK is a collection of software and libs that devs use for Android development.
